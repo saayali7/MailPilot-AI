@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MailPilot AI",
+  "version": "1.0.0",
+  "description": "AI-powered Gmail Assistant",
+  "action": {
+    "default_popup": "src/popup.html"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://mail.google.com/*"
+  ]
+}
